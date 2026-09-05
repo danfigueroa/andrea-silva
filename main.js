@@ -8,7 +8,7 @@
 
   var PHONE = document.body.dataset.whatsapp || '';
   var DEFAULT_MSG =
-    'Olá, Dra. Andréa! Vim pelo site e gostaria de uma análise do meu caso.';
+    'Olá, Andréa! Vim pelo site e gostaria de uma análise do meu caso.';
 
   function waLink(message) {
     return 'https://wa.me/' + PHONE + '?text=' + encodeURIComponent(message);
@@ -112,7 +112,7 @@
 
   function caseMessage() {
     return (
-      'Olá, Dra. Andréa! Fiz o simulador do site. Situação: ' +
+      'Olá, Andréa! Fiz o simulador do site. Situação: ' +
       labelFor(0, answers[0]) +
       '. No INSS: ' + labelFor(1, answers[1]) +
       '. Documentos: ' + labelFor(2, answers[2]) + '.'
