@@ -629,6 +629,15 @@ ol, ul { padding: 0; list-style: none; }
 .footer-links a { color: var(--cream); }
 .footer-links a:hover { color: var(--gold-soft); }
 
+.site-footer__map {
+  max-width: var(--shell);
+  margin: 36px auto 0;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(246, 241, 233, .16);
+}
+.site-footer__map iframe { display: block; width: 100%; height: 280px; }
+
 .legal {
   max-width: var(--shell);
   margin: 44px auto 0;
