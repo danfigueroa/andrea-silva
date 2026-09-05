@@ -1,4 +1,4 @@
-# Andréa Silva — Advocacia Previdenciária
+# Andréa Silva — Direito Previdenciário
 
 Landing page estática, sem build e sem dependências. Importada do projeto
 Claude Design *"Landing page para advogada Andrea Silva"*
@@ -26,8 +26,7 @@ A página está com os mesmos placeholders do design. Todos são texto simples:
 | Onde | Placeholder |
 | --- | --- |
 | `<body data-whatsapp>` e os `href="https://wa.me/…"` | `5500000000000` |
-| Hero, "Sobre" e rodapé | `OAB/XX 000.000` |
-| Rodapé | telefone `(00) 00000-0000`, e-mail, endereço |
+| Rodapé | telefone `(00) 00000-0000`, e-mail |
 
 O número do WhatsApp aparece em `data-whatsapp` (fonte da verdade, usada pelo
 JS) e nos `href` estáticos, que servem de fallback caso o JS não carregue —
@@ -35,10 +34,9 @@ troque nos dois com um find-and-replace de `5500000000000`.
 
 ## Fotos que faltam
 
-Quatro slots ficaram como placeholder tracejado, iguais aos `<image-slot>` do
+Três slots ficaram como placeholder tracejado, iguais aos `<image-slot>` do
 design. Para preencher, troque a `<div class="photo-slot">` por uma `<img>`:
 
-- **Sobre** — retrato vertical da Dra. Andréa (proporção 4:5)
 - **Instagram** — posts 2, 3 e 4 (proporção 4:5)
 
 ## Simulador
