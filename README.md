@@ -21,16 +21,19 @@ python3 -m http.server 8000   # http://localhost:8000
 
 ## O que precisa ser preenchido antes de publicar
 
-A página está com os mesmos placeholders do design. Todos são texto simples:
+A página ainda está com um placeholder de texto simples:
 
 | Onde | Placeholder |
 | --- | --- |
-| `<body data-whatsapp>` e os `href="https://wa.me/…"` | `5500000000000` |
-| Rodapé | telefone `(00) 00000-0000`, e-mail |
+| Rodapé | e-mail |
 
-O número do WhatsApp aparece em `data-whatsapp` (fonte da verdade, usada pelo
-JS) e nos `href` estáticos, que servem de fallback caso o JS não carregue —
-troque nos dois com um find-and-replace de `5500000000000`.
+## WhatsApp
+
+O número (5573988278344) aparece em `data-whatsapp` no `<body>` — fonte da
+verdade, usada pelo JS para montar os links com a mensagem pré-preenchida —
+e nos `href="https://wa.me/…"` estáticos, que servem de fallback caso o JS
+não carregue. Para trocar o número, atualize os dois com um
+find-and-replace de `5573988278344`.
 
 ## Fotos que faltam
 
