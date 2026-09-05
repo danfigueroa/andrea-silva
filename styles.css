@@ -223,6 +223,15 @@ ol, ul { padding: 0; list-style: none; }
 }
 .hero__title em { color: var(--gold); }
 
+.hero__role {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-top: 14px;
+}
+
 .hero__lede {
   font-size: 19px;
   line-height: 1.6;
@@ -230,6 +239,14 @@ ol, ul { padding: 0; list-style: none; }
   max-width: 520px;
   margin-top: 22px;
   text-wrap: pretty;
+}
+
+.hero__partner {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ink-50);
+  max-width: 480px;
+  margin-top: 10px;
 }
 
 .hero__actions {
